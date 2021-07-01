@@ -32,7 +32,8 @@ function addAllFamilyLuckyNumbers(anArray){
 }
 
 //Enter all your code here:
-
+person[2]="33";
+console.log(person)
 
 //Do not make changes below:
 console.log(addAllFamilyLuckyNumbers(family.members)); 

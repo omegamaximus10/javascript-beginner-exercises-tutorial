@@ -1,10 +1,24 @@
 let guests = prompt('How many people are coming to your wedding?');
 
-function getPrice(guests){
-    let cost = 0;
-    // Your code here
-    return cost;
-}
+   
+ var priceWedding=guests;
 
-let price = getPrice(guests);
-console.log('Your wedding will cost '+price+' dollars');
+    // Your code here
+    if(guests<=50){
+        console.log("$4.000");
+    
+    }else if (guests >50 && guests <=100){
+        console.log ("$10.000");
+    
+    }else if (guests >100 && guests<=200){
+        console.log ("$15.000");
+    
+    }else if (guests >200){
+        console.log ("$20.000");
+    }
+
+    
+
+ var priceWedding=guests;
+
+ console.log(priceWedding);

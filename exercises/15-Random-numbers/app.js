@@ -7,4 +7,7 @@ function getRandomInt()
 }
 
 
-console.log(getRandomInt());
+console.log(Math.floor(getRandomInt(5)*10));
+
+
+
