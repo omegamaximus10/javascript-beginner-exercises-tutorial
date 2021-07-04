@@ -3,7 +3,7 @@ var person = {
     lastname: "Doe",
     age: 35,                     //Number
     gender: "male",
-    lucky_numbers: [ 7, 11, 13, 17], //Array
+    lucky_numbers: [ 7, 11, 13, 33], //Array
     significant_other: person2   //Object, yes the same variable/object defined after
 };
 
@@ -17,7 +17,12 @@ var person2 = {
 };
 
 var family = {
+    name:"jimy",
     lastname: "Doe",
+    age: 13,
+    gender: "male",
+    lucky_numbers:[1,2,3,4],
+    significant_other: null,
     members: [person, person2]   //Array of objects, don't forget to add Jimmy
 };
 
@@ -32,8 +37,8 @@ function addAllFamilyLuckyNumbers(anArray){
 }
 
 //Enter all your code here:
-person[2]="33";
-console.log(person)
+person[4]="33";
+console.log(family)
 
 //Do not make changes below:
 console.log(addAllFamilyLuckyNumbers(family.members)); 
